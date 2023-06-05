@@ -2,7 +2,7 @@ name: Go Test
 
 # mainにpull requestを送ると実行
 on: 
-  pull_request:
+  push:
     branches: 
       - main
 
