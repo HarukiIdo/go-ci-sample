@@ -1,6 +1,10 @@
 name: Go Test
 
-on: push
+# mainにpull requestを送ると実行
+on: 
+  pull_request:
+    branches: 
+      - main
 
 jobs:
   build:
